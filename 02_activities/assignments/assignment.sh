@@ -39,7 +39,8 @@ mkdir server_logs user_logs event_logs
 cd ~/shell/02_activities/assignments
 cp data/raw/rawdata/server*.log data/processed/server_logs
 # 6. Repeat the above step for user logs and event logs
-
+cp data/raw/rawdata/user_log*.log data/processed/user_logs
+cp data/raw/rawdata/event_log*.log data/processed/event_logs
 # 7. For user privacy, remove all files containing IP addresses (files with "ipaddr" in the filename) from ./data/raw and ./data/processed/user_logs
 
 # 8. Create a file named ./data/inventory.txt that lists all the files in the subfolders of ./data/processed
