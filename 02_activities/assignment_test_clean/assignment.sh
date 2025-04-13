@@ -37,8 +37,7 @@ mkdir processed
 cd processed
 mkdir server_logs user_logs event_logs
 # 5. Copy all server log files (files with "server" in the name AND a .log extension) from ./data/raw to ./data/processed/server_logs
-cd ..
-cd ..
+cd ~/shell/02_activities/assignments
 cp data/raw/rawdata/server*.log data/processed/server_logs
 # 6. Repeat the above step for user logs and event logs
 cp data/raw/rawdata/user_log*.log data/processed/user_logs
